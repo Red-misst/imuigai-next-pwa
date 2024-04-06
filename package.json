@@ -1,6 +1,6 @@
 {
   "name": "imuigai-next-pwa",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Next.js with PWA, powered by workbox.",
   "main": "index.js",
   "repository": {

@@ -1,30 +1,26 @@
 # Zero Config [PWA](https://web.dev/learn/pwa/) Plugin for [Next.js](https://nextjs.org/)
 
-This plugin is powered by [workbox](https://developer.chrome.com/docs/workbox/) and other good stuff.
+This plugin is powered by [workbox](https://developer.chrome.com/docs/workbox/). A mantained version of the next-pwa
 
-![size](https://img.shields.io/bundlephobia/minzip/imuigai-next-pwa.svg) ![dependencies](https://img.shields.io/librariesio/release/npm/imuigai-next-pwa) ![downloads](https://img.shields.io/npm/dw/imuigai-next-pwa.svg) ![license](https://img.shields.io/npm/l/imuigai-next-pwa.svg)
+ [license](https://img.shields.io/npm/l/imuigai-next-pwa.svg)
 
-👋 Share your awesome PWA project 👉 [here]
 
 **Features**
 
-- 0️⃣ Zero config for registering and generating service worker
-- ✨ Optimized precache and runtime cache
-- 💯 Maximize lighthouse score
-- 🎈 Easy to understand examples
-- 📴 Completely offline support with fallbacks  🆕
-- 📦 Use [workbox](https://developer.chrome.com/docs/workbox/) and [workbox-window](https://developer.chrome.com/docs/workbox/modules/workbox-window) v6
-- 🍪 Work with cookies out of the box
-- 🔉 Default range requests for audios and videos
-- ☕ No custom server needed for Next.js 9+
-- 🔧 Handle PWA lifecycle events opt-in 
-- 📐 Custom worker to run extra code with code splitting and **typescript** support 
-- 📜 [Public environment variables](https://nextjs.org/docs/basic-features/environment-variables#exposing-environment-variables-to-the-browser) available in custom worker as usual
-- 🐞 Debug service worker with confidence in development mode without caching
-- 🌏 Internationalization (a.k.a I18N) with `next-i18next` 
+- Zero config for registering and generating service worker
+- Optimized precache and runtime cache
+- Maximize lighthouse score
+- Easy to understand examples
+- Completely offline support with fallbacks  
+- Use [workbox](https://developer.chrome.com/docs/workbox/) and [workbox-window](https://developer.chrome.com/docs/workbox/modules/workbox-window) v7
+- Work with cookies out of the box
+- Default range requests for audios and videos
+- No custom server needed for Next.js 13+
+- Handle PWA lifecycle events opt-in 
+- Custom worker to run extra code with code splitting and **typescript** support 
+- [Public environment variables](https://nextjs.org/docs/basic-features/environment-variables#exposing-environment-variables-to-the-browser) available in custom worker as usual
+- Debug service worker with confidence in development mode without caching
 - 🛠 Configurable by the same [workbox configuration options](https://developer.chrome.com/docs/workbox/modules/workbox-webpack-plugin) for [GenerateSW](https://developer.chrome.com/docs/workbox/modules/workbox-webpack-plugin/#generatesw-plugin) and [InjectManifest](https://developer.chrome.com/docs/workbox/modules/workbox-webpack-plugin/#injectmanifest-plugin)
-
-- 🔩 (Experimental) precaching `.module.js` when `next.config.js` has `experimental.modern` set to `true`
 
 > **NOTE 1** - `imuigai-next-pwa` version 0.0.1+ should only work with `next.js` 13.0.0+, and static files should only be served through `public` directory. This will make things simpler.
 >
@@ -32,7 +28,6 @@ This plugin is powered by [workbox](https://developer.chrome.com/docs/workbox/) 
 
 ---
 
-[![Open in Gitpod](https://img.shields.io/badge/Open%20In-Gitpod.io-%231966D2?style=for-the-badge&logo=gitpod)](https://gitpod.io/#https://github.com/Red-misst/imuigai-next-pwa/)
 
 ## Install
 
@@ -323,13 +318,6 @@ Here is the [document on how to write runtime caching configurations](https://de
 3. [The Service Worker Lifecycle](https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle)
 4. [6 Tips to make your iOS PWA feel like a native app](https://www.netguru.com/codestories/pwa-ios)
 5. [Make Your PWA Available on Google Play Store](https://www.netguru.com/codestories/make-your-pwa-available-on-google-play-store)
-
-## Fun PWA Projects
-
-1. [Experience SAMSUNG on an iPhone - must open on an iPhone to start](https://itest.nz/)
-2. [App Scope - like an app store for PWA](https://appsco.pe/)
-3. [PWA Directory](https://pwa-directory.appspot.com/)
-4. [PWA Builder - Alternative way to build awesome PWA](https://www.pwabuilder.com/)
 
 ## License
 
